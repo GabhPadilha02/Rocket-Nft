@@ -303,7 +303,7 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    width: 40vw;
+    
 }
 .email-container p{
     font-size: 1.5rem;
@@ -454,6 +454,10 @@ footer{
         gap: 40px;
         border: none;
     }
+    .statistics-description{
+        display: flex;
+        align-items: center;
+    }
     .text-description{
         display: flex;
         flex-direction: column;
@@ -545,12 +549,16 @@ footer{
     .email-container input{
         width: 200px;
         height: 40px;
+        font-size: 1rem;
     }
     .email-container label{
         display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80vw;
     }
     .email-container button{
-        width: 70px;
+        width: 100px;
         height: 40px;
     }
     .footer-navbar{
